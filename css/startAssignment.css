@@ -1,64 +1,3 @@
-/* Reset Styles */
-html,body{
-    
-    margin: 0;
-    padding: 0;
-  
-}
-
-
-
-#container{
-    
-    min-height: 100%;
-    position: relative;
-}
-
-
-/* End of Reset Styles */
-
-/*CoGraphix Code Goes Here*/
-
-/*Navigation*/
-
-#navigation-bar{
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    height: 100px;
-    padding-top: 20px;
-    background-color: #333333;
-}
-
-#logo{
-    
-    margin-bottom: 20px;
-    
-}
-
-#menu-items li{
-    
-    display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: white;
-    font-size: 18px;
-    font-family: 'Raleway';
-    text-transform: uppercase;
-}
-
-
-#start #menu-item-start{
-    
-    color: #26c6da;
-    
-}
-
-
-
-
-
-
 /* Start Assignment Page */
 
 /*Step Wizard */
@@ -83,6 +22,7 @@ html,body{
     height: 2px;
     background: #e0e0e0;
     position: absolute;
+    bottom: 0px;
     width: 80%;
     margin: 0 auto;
     left: 0;
@@ -205,6 +145,3 @@ span.round-tab:hover {
     }
 }
 
-
-
-/* End of CoGraphix Code */
